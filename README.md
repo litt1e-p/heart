@@ -1,2 +1,2 @@
 # heart
-print a heart shape via different language
+print a heart shape via php
