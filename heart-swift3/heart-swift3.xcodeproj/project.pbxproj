@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0433ACBA1E52DF9D00F03ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433ACB91E52DF9D00F03ABC /* AppDelegate.swift */; };
+		0433ACBC1E52DF9D00F03ABC /* BezierHeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433ACBB1E52DF9D00F03ABC /* BezierHeartViewController.swift */; };
+		0433ACC11E52DF9D00F03ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433ACC01E52DF9D00F03ABC /* Assets.xcassets */; };
+		0433ACC41E52DF9D00F03ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433ACC21E52DF9D00F03ABC /* LaunchScreen.storyboard */; };
+		0433ACCC1E52E01400F03ABC /* EmitterHeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433ACCB1E52E01400F03ABC /* EmitterHeartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0433ACB61E52DF9D00F03ABC /* heart-swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "heart-swift3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0433ACB91E52DF9D00F03ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0433ACBB1E52DF9D00F03ABC /* BezierHeartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierHeartViewController.swift; sourceTree = "<group>"; };
+		0433ACC01E52DF9D00F03ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0433ACC31E52DF9D00F03ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0433ACC51E52DF9D00F03ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433ACCB1E52E01400F03ABC /* EmitterHeartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterHeartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0433ACB31E52DF9D00F03ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0433ACAD1E52DF9D00F03ABC = {
+			isa = PBXGroup;
+			children = (
+				0433ACB81E52DF9D00F03ABC /* heart-swift3 */,
+				0433ACB71E52DF9D00F03ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0433ACB71E52DF9D00F03ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0433ACB61E52DF9D00F03ABC /* heart-swift3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0433ACB81E52DF9D00F03ABC /* heart-swift3 */ = {
+			isa = PBXGroup;
+			children = (
+				0433ACB91E52DF9D00F03ABC /* AppDelegate.swift */,
+				0433ACBB1E52DF9D00F03ABC /* BezierHeartViewController.swift */,
+				0433ACCB1E52E01400F03ABC /* EmitterHeartViewController.swift */,
+				0433ACC01E52DF9D00F03ABC /* Assets.xcassets */,
+				0433ACC21E52DF9D00F03ABC /* LaunchScreen.storyboard */,
+				0433ACC51E52DF9D00F03ABC /* Info.plist */,
+			);
+			path = "heart-swift3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0433ACB51E52DF9D00F03ABC /* heart-swift3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0433ACC81E52DF9D00F03ABC /* Build configuration list for PBXNativeTarget "heart-swift3" */;
+			buildPhases = (
+				0433ACB21E52DF9D00F03ABC /* Sources */,
+				0433ACB31E52DF9D00F03ABC /* Frameworks */,
+				0433ACB41E52DF9D00F03ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "heart-swift3";
+			productName = "heart-swift3";
+			productReference = 0433ACB61E52DF9D00F03ABC /* heart-swift3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0433ACAE1E52DF9D00F03ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "litt1e-p";
+				TargetAttributes = {
+					0433ACB51E52DF9D00F03ABC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VS22GVZDEV;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0433ACB11E52DF9D00F03ABC /* Build configuration list for PBXProject "heart-swift3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0433ACAD1E52DF9D00F03ABC;
+			productRefGroup = 0433ACB71E52DF9D00F03ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0433ACB51E52DF9D00F03ABC /* heart-swift3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0433ACB41E52DF9D00F03ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433ACC41E52DF9D00F03ABC /* LaunchScreen.storyboard in Resources */,
+				0433ACC11E52DF9D00F03ABC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0433ACB21E52DF9D00F03ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433ACBC1E52DF9D00F03ABC /* BezierHeartViewController.swift in Sources */,
+				0433ACCC1E52E01400F03ABC /* EmitterHeartViewController.swift in Sources */,
+				0433ACBA1E52DF9D00F03ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0433ACC21E52DF9D00F03ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0433ACC31E52DF9D00F03ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0433ACC61E52DF9D00F03ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0433ACC71E52DF9D00F03ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0433ACC91E52DF9D00F03ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VS22GVZDEV;
+				INFOPLIST_FILE = "heart-swift3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.heart-swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0433ACCA1E52DF9D00F03ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VS22GVZDEV;
+				INFOPLIST_FILE = "heart-swift3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.heart-swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0433ACB11E52DF9D00F03ABC /* Build configuration list for PBXProject "heart-swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0433ACC61E52DF9D00F03ABC /* Debug */,
+				0433ACC71E52DF9D00F03ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0433ACC81E52DF9D00F03ABC /* Build configuration list for PBXNativeTarget "heart-swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0433ACC91E52DF9D00F03ABC /* Debug */,
+				0433ACCA1E52DF9D00F03ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0433ACAE1E52DF9D00F03ABC /* Project object */;
+}
